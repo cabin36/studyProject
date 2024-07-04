@@ -12,6 +12,6 @@ import java.util.Map;
 @Mapper
 public interface BoardMapper {
 
-    @Insert("INSERT INTO boardtest (content, title) VALUES (#{content}, #{title})")
+
     void insertTest(BoardModel boardModel);
 }
